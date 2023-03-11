@@ -1,0 +1,112 @@
+:root {
+   --google_white_text: #ffffff;
+   --google_dark_background: #202124;
+   --google_dark_button: #303134;
+   --google_font: Arial;
+   --google_font_size_a: 13px;
+}
+
+* {
+   margin: 0;
+   box-sizing: border-box;
+   background-color: var(--google_dark_background);
+   font-family: var(--google_font), Helvetica, sans-serif;
+}
+
+.nav-link-right {
+   display: block;
+   text-align: end;
+   margin: 5px 0px 5px 0px;
+   padding: 10px;
+}
+
+.nav-link-right a {
+   color: var(--google_white_text);
+   text-decoration: none;
+   margin-right: 12px;
+   font-size: var(--google_font_size_a);
+}
+
+.nav-link-right a:hover {
+   text-decoration: underline;
+}
+
+.search-logo {
+   display: flex;
+   justify-content: center;
+   margin-top: 200px;
+}
+
+
+.search-logo img {
+   width: 20%;
+}
+
+.search-div-form {
+   display: flex;
+   justify-content: center;
+   margin-top: 10px;
+
+}
+
+.search-input input {
+   margin: 20px;
+   box-shadow: none;
+   background-color: var(--google_dark_background);
+   color: var(--google_white_text);
+   border-radius: 20px;
+   border: 1px solid white;
+   padding: 10px 20px;
+   width: 500px;
+}
+
+.search-input input:active, input:focus, input:hover {
+   outline: none;
+   background-color: #303134;
+}
+
+.button-form-center {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+.button-form-center  input {
+   border-radius: 4px;
+   box-shadow: none;
+   border: none;
+   padding: 8px 15px;
+   color: var(--google_white_text);
+   background-color: var(--google_dark_button);
+}
+
+.button-form-center  input:hover {
+   background-color: #303134;
+   border: 1px solid #4e4e50;
+}
+
+.titles-advsch {
+   color: var(--google_white_text);
+}
+
+.advsch-table td {
+   color: var(--google_white_text);
+   padding: 10px;
+   font-size: 13px;
+}
+
+.advsch-table td input {
+   border-radius: 0px;
+   border: 1px solid #7a7a7c;
+   color: var(--google_white_text);
+   padding: 5px;
+}
+
+#advsch-button {
+   border-radius: 4px;
+   box-shadow: none;
+   border: none;
+   padding: 8px 15px;
+   color: #202124;
+   background-color: #8ab4f8;
+}

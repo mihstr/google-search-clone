@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+   <link rel="stylesheet" href="style.css">
+
+   <title>Google Advanced Search</title>
+</head>
+<body>
+   
+   <div class="nav-link-right">
+      <a href="index.html">Google Search</a>
+   </div>
+   
+   <div>
+      
+      <form action="https://www.google.com/search">
+         <table class="advsch-table">
+            <thead>
+               <tr>
+                  <td><h3>Find pages with...</h3></td>
+                  <td></td>
+                  <td><h4>To do this in the search box.</h4></td>              
+               </tr>
+            </thead>
+
+            <tbody>
+               <tr>
+                  <td><label for="as_q">all these words:</label></td>
+                  <td><input type="text" name="as_q"></td>
+                  <td><span>Type the important words: <strong>tri-colour rat terrier</strong></span></td>
+               </tr>
+               <tr>
+                  <td><label for="as_epq">this exact word or phrase:</label></td>
+                  <td><input type="text" name="as_epq"></td>
+                  <td><span>Put exact words in quotes: <strong>"rat terrier"</strong></span></td>
+               </tr>
+               <tr>
+                  <td><label for="as_oq">any of these words:</label></td>
+                  <td><input type="text" name="as_oq">   </td>
+                  <td><span>Type <strong>OR</strong> between all the words you want: <strong>miniature OR standard</strong></span></td>
+               </tr>
+               <tr>
+                  <td><label for="as_eq">none of these words:</label></td>
+                  <td><input type="text" name="as_eq"></td>
+                  <td><span>Put a minus sign just before words that you don't want: <strong>-rodent, -"Jack Russell"</strong></span></td>
+               </tr>
+               <tr>
+                  <td></td>
+                  <td>
+                     <input id="advsch-button" type="submit" value="Advanced Search">
+                  </td>
+                  <td></td>
+               </tr>
+            </tbody>
+         </table>
+   
+   
+      </form>
+
+   </div>
+
+</body>
+</html>
